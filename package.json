@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
     "server": "json-server --watch fakedb.json --port 7777",
     "lint": "ng lint",
     "e2e": "ng e2e",
