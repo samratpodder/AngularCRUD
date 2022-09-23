@@ -19,7 +19,7 @@ export class TaskService {
   addTask(task: Task):Observable<Task> {
     return this.http.post<Task>(this.apiUrl,task,httpOptions);
   }
-  private apiUrl: string = "http://localhost:7777/tasks"
+  private apiUrl: string = "https://alpine-nifty-oregano.glitch.me/tasks"
   constructor(private http:HttpClient) { }
 
   getTasks():Observable<Task[]>{
